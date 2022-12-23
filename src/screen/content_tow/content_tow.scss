@@ -1,0 +1,60 @@
+@import '../../assets/style/mixin.scss';
+
+.content-tow-container {
+    width: 100%;
+    height: 21rem;
+    background-color: #fdeae3;
+    @include boxCenter();
+    .content-tow-wrapper {
+        width: 80%;
+        height: 80%;
+        @include boxCenter();
+        .content-tow-bigdesktop-container {
+            width: 94%;
+            height: 60%;
+            @include boxCenter();
+            .content-tow-bigdesktop-list-item {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                .content-tow-bigdesktop-item { 
+                    height: 100%;
+                    flex: 1;
+                    @include boxCenter();
+                    display: flex;
+                    flex-direction: column;
+                    .content-tow-bigdesktop-item-first {
+                        width: 100%;
+                        height: 40%;
+                        @include boxCenter();
+                        background: linear-gradient(to bottom, #ffffff00 0%, #ffffff00 40%,#FDD944 40%,#FDD944 100%) !important;
+                        span { 
+                            font-size: 3rem;
+                            font-weight: 700;
+                            color: rgba(47,53,137,1);
+
+                        }
+                    }
+
+                    .content-tow-bigdesktop-item-last {
+                        width: 100%;
+                        height: 40%;
+                        @include boxCenter();
+                        span {
+                            font-size: 1.6rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .content-tow-bigdesktop-icon {
+                    padding: 0 4rem;
+                    i {
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

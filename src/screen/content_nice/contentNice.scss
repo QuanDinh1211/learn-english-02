@@ -1,0 +1,116 @@
+@import '../../assets/style/mixin.scss';
+
+.content-nice-container {
+    width: 100%;
+    height: 73rem;
+    @include boxCenter();
+    background-color: #b7cbe5;
+    .content-nice-wrapper {
+        width: 80%;
+        height: 90%;
+        .content-nice-header {
+            width: 100%;
+            height: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @include pd(10%);
+            justify-content: space-around;
+            .content-nice-header-title {
+                width: 80%;
+                height: 50%;
+                @include boxCenter();
+                h2 {
+                    font-size: 5rem;
+                    font-weight: 700;
+                    line-height: 6rem;
+                    text-align: center;
+                    color: rgba(47,53,137,1);
+                }
+            }
+
+            .content-nice-header-des {
+                width: 80%;
+                height: 30%;
+                @include boxCenter();
+                h3 {
+                    font-size: 2.4rem;
+                    font-weight: 600; 
+                    text-align: center;
+                }
+            }
+        }
+
+        .content-nice-body {
+            width: 100%;
+            height: 60%;
+            @include boxCenter();
+            .content-nice-body-list {
+                width: 80%;
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .content-nice-body-item {
+                    width: 30%;
+                    height: 80%;
+                    background-color: #fff;
+                    padding: 4rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    border: 2px solid rgba(248,187,164,1);
+                    .content-nice-body-item-first {
+                        width: 100%;
+                        height: 33%;
+                        @include boxCenter();
+                        span {
+                            font-size: 3rem;
+                            text-align: center;
+                            font-weight: 600;
+                            line-height: 3.6rem;
+                            color: rgba(47,53,137,1);
+                        }
+                    }
+
+                    .content-nice-body-item-center {
+                        width: 100%;
+                        height: 33%;
+                        @include boxCenter();
+                         
+                        span {
+                            font-size: 6rem;
+                            font-weight: 700;
+                            color: rgba(243,117,42,1);
+                        }
+
+                        .content-nice-body-item-center-price {
+                            font-size: 2.4rem;
+                            margin-top: 1rem;
+                        }
+                    }
+
+                    .content-nice-body-item-last {
+                        width: 100%;
+                        height: 33%;
+                        @include boxCenter();
+                        .content-nice-body-item-last-btn {
+                            width: 16rem;
+                            height: 4rem;
+                        }
+                    }
+
+                    
+                }
+
+                .content-nice-body-item-access {
+                    .content-nice-body-item-center {
+                        .content-nice-body-item-center-price {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+@import '../../assets/style/mixin.scss';
+
+.content-five-container {
+    width: 100%;
+    height: 80rem;
+    background-color: #fdefe9;
+    @include boxCenter();
+    .content-five-wrapper {
+        width: 70%;
+        height: 90%;
+        display: flex;
+        flex-direction: column; 
+        .content-five-first {
+            width: 100%;
+            height: 50%;
+            @include boxCenter();
+            background-color: rgba(251,221,209,1);
+            .content-five-first-wrapper {
+                width: 70%;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .content-five-first-header {
+                    width: 100%;
+                    height: 20%;
+                    @include boxCenter();
+                    h2 {
+                        font-size: 3rem;
+                        padding: 0 1rem;
+                        color: rgba(47,53,137,1);
+                        background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #FDD944 40%, #FDD944 100%) !important;
+                    }
+                }
+
+                .content-five-first-body {
+                    width: 100%;
+                    height: 80%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .content-five-first-body-item {
+                        width: 100%;
+                        height: 30%;
+                        display: flex;
+                        align-items: center;
+                        .content-five-first-body-item-icon {
+                            width: 10%;
+                            height: 90%;
+                            @include boxCenter();
+                            img {
+                                width: 3rem;
+                            }
+                        }
+                        .content-five-first-body-item-text {
+                            flex: 1;
+                            height: 90%;
+                            display: flex;
+                            align-items: center;
+                            span {
+                                width: 100%;
+                                font-size: 2rem;
+                                font-weight: 500;
+                                line-height: 3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content-five-last {
+            width: 100%;
+            height: 50%;
+            @include boxCenter();
+            border-bottom: 3px solid rgba(248,187,164,1);
+            .content-five-last-wrapper {
+                width: 60%;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .content-five-last-header {
+                    width: 100%;
+                    height: 60%;
+                    @include boxCenter();
+                    h2 {
+                        font-size: 2rem;
+                        font-weight: 500;
+                        line-height: 3rem;
+                        text-align: center;
+                    }
+                }
+
+                .content-five-last-body {
+                    width: 100%;
+                    height: 40%;
+                    @include boxCenter();
+                    .content-five-last-body-btn {
+                        width: 16rem;
+                        height: 4rem;
+                    }
+                }
+            }
+        }
+    }
+}
