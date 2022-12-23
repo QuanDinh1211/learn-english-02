@@ -5,7 +5,7 @@ import "./button.scss";
 const Button = ({ value }) => {
   return (
     <div className="btn-container">
-      <span>{value}</span>
+      <a href="#buy-course">{value}</a>
     </div>
   );
 };

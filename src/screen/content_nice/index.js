@@ -5,7 +5,7 @@ import Button from "../../components/layout/button";
 
 const ContentNice = () => {
   return (
-    <div className="content-nice-container">
+    <div id="buy-course" className="content-nice-container">
       <div className="content-nice-wrapper">
         <div className="content-nice-header">
           <div className="content-nice-header-title">
