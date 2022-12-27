@@ -70,75 +70,218 @@
                 } 
             }
 
-        .content-one-body-last {
-            width: 50%;
-            height: 100%;
-            display: flex;
-            align-items: center;
+            .content-one-body-last {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
 
-            .content-one-body-last-wrapper {
-                width: 100%;
-                height: 80%;
-                
-                margin-left: -2rem;
-                .content-one-body-last-header {
-                    margin-left: -4rem;
+                .content-one-body-last-wrapper {
                     width: 100%;
-                    height: 50%;
-                    @include boxCenter();
-                    flex-direction: column;
-                    .content-one-body-last-header-text-1 {
-                        width: 100%;
-                        height: 30%;
-                        display: flex;
-                        align-items: center;
-                        margin-left: -20rem;
-                        z-index: 1000;
-                        h1 {
-                            font-size: 4.4rem;
-                            color: rgba(47,53,137,1);
-                        }
-                    }
-                    .content-one-body-last-header-text-2 {
-                        width: 100%;
-                        height: 30%;
-                        display: flex;
-                        align-items: center;
-                        h1 {
-                            font-size: 5.4rem;
-                            color: rgba(47,53,137,1);
-                        }
-                    }
-                }
-
-                .content-one-body-last-body {
-                    width: 100%;
-                    height: 50%;
-                    .content-one-body-last-body-text {
+                    height: 80%;
+                    
+                    margin-left: -2rem;
+                    .content-one-body-last-header {
+                        margin-left: -4rem;
                         width: 100%;
                         height: 50%;
                         @include boxCenter();
-                        span {
-                            width: 86%;
-                            font-size: 2rem;
-                            line-height: 3rem;
+                        flex-direction: column;
+                        .content-one-body-last-header-text-1 {
+                            width: 100%;
+                            height: 30%;
+                            display: flex;
+                            align-items: center;
+                            margin-left: -20rem;
+                            z-index: 1000;
+                            h1 {
+                                font-size: 4.4rem;
+                                color: rgba(47,53,137,1);
+                            }
+                        }
+                        .content-one-body-last-header-text-2 {
+                            width: 100%;
+                            height: 30%;
+                            display: flex;
+                            align-items: center;
+                            h1 {
+                                font-size: 5.4rem;
+                                color: rgba(47,53,137,1);
+                            }
                         }
                     }
 
-                    .content-one-body-last-body-btn {
+                    .content-one-body-last-body {
                         width: 100%;
                         height: 50%;
-                        @include boxCenter();
+                        .content-one-body-last-body-text {
+                            width: 100%;
+                            height: 50%;
+                            @include boxCenter();
+                            span {
+                                width: 86%;
+                                font-size: 2rem;
+                                line-height: 3rem;
+                            }
+                        }
 
-                        .content-one-body-last-body-btn-wrapper {
-                            width: 16rem;
-                            height: 4rem;
+                        .content-one-body-last-body-btn {
+                            width: 100%;
+                            height: 50%;
+                            @include boxCenter();
+
+                            .content-one-body-last-body-btn-wrapper {
+                                width: 16rem;
+                                height: 4rem;
+                            }
                         }
                     }
                 }
             }
         }
-        }
         
+    }
+
+    @include responsive(min-destop) {
+        .content-one-header {
+            
+            .content-one-header-list-item {
+                width: 40%; 
+            } 
+        }
+        .content-one-body {
+            .content-one-body-wrapper {
+                width: 90%;
+                .content-one-body-first {
+                    img {
+                        width: 80%;
+                    }
+                }
+
+                .content-one-body-last {
+                    .content-one-body-last-wrapper {
+                        .content-one-body-last-header {
+                            margin-left: -2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @include responsive(tablet) {
+        .content-one-header {
+            
+            .content-one-header-list-item {
+                width: 50%; 
+            } 
+        }
+        .content-one-body {
+            .content-one-body-wrapper {
+                width: 90%;
+                .content-one-body-first {
+                    img {
+                        width: 80%;
+                    }
+                }
+
+                .content-one-body-last {
+                    .content-one-body-last-wrapper {
+                        .content-one-body-last-header {
+                            margin-left: -2rem;
+                            .content-one-body-last-header-text-2 {
+                                h1 {
+                                    font-size: 5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include responsive(tablet-min) {
+        height: 40rem;
+        .content-one-header {
+            
+            .content-one-header-list-item {
+                width: 50%; 
+                .content-one-header-item {
+                    a {
+                        font-size: 1.4rem;
+                    }
+                }
+            } 
+        }
+
+        .content-one-logo {
+            width: 22rem;
+            height: 12rem;
+        }
+
+        .content-one-body {
+            .content-one-body-wrapper {
+                width: 90%;
+                .content-one-body-first {
+                    img {
+                        width: 76%;
+                    }
+                }
+
+                .content-one-body-last {
+                    .content-one-body-last-wrapper {
+                        .content-one-body-last-header {
+                            margin-left: -1rem;
+                            .content-one-body-last-header-text-1 {
+                                margin-left: -16rem;
+                                h1 {
+                                    font-size: 3rem;
+                                }
+                            }
+                            .content-one-body-last-header-text-2 {
+                                h1 {
+                                    font-size: 3.6rem;
+                                }
+                            }
+                        }
+
+                        .content-one-body-last-body {
+                            .content-one-body-last-body-text {
+                                span {
+                                    font-size: 1.6rem;
+                                    line-height: 2.4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include responsive(phone) {
+        height: 94rem;
+
+        .web {
+            display: none;
+        }
+
+        .content-one-header {
+            .content-one-header-list-item {
+                width: 100%;
+
+                .content-one-header-item {
+                    a {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+
+        }
+
+        .content-one-body {
+            
+        }
+
     }
 }

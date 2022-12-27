@@ -113,4 +113,93 @@
             }
         }
     }
+
+    @include responsive(min-destop) {
+        .content-nice-wrapper {
+            width: 90%;
+
+            .content-nice-body {
+                .content-nice-body-list {
+                    .content-nice-body-item {
+                        padding: 2rem;
+                        .content-nice-body-item-first {
+                            span {
+                                font-size: 2.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @include responsive(tablet) {
+        .content-nice-wrapper {
+            width: 90%;
+
+            .content-nice-body {
+                .content-nice-body-list {
+                    .content-nice-body-item {
+                        padding: 2rem;
+                        .content-nice-body-item-first {
+                            span {
+                                font-size: 2.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include responsive(tablet-min) {
+        height: 56rem;
+        .content-nice-wrapper {
+            width: 90%;
+
+            .content-nice-header {
+                .content-nice-header-title {
+                    width: 90%;
+
+                    h2 {
+                        font-size: 4rem;
+                        line-height: 4.4rem;
+                    }
+                }
+
+                .content-nice-header-des {
+                    h3 {
+                        font-size: 2rem;
+                    }
+                }
+            }
+
+            .content-nice-body {
+                .content-nice-body-list {
+                    width: 90%;
+                    .content-nice-body-item {
+                        width: 32%;
+                        padding: 2rem;
+                        .content-nice-body-item-first {
+                            span {
+                                font-size: 2.4rem;
+                            }
+                        }
+
+                        .content-nice-body-item-center {
+                            span {
+                                font-size: 4.2rem;
+                            }
+                        }
+
+                        .content-nice-body-item-last {
+                            .content-nice-body-item-last-btn {
+                                width: 14rem;
+                            height: 3.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

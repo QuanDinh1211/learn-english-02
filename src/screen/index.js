@@ -16,7 +16,7 @@ const Content = () => {
   return (
     <div className="content-container">
       <ContentOne />
-      <ContentTow />
+      {/* <ContentTow />
       <ContentThree />
       <ContentFour />
       <ContentFive />
@@ -24,7 +24,7 @@ const Content = () => {
       <ContentSevent />
       <ContentEight />
       <ContentNice />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

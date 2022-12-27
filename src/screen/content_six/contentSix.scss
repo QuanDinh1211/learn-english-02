@@ -94,4 +94,37 @@
             }
         }
     }
+
+    @include responsive(tablet) {
+        .content-six-wrapper {
+            width: 70%;
+        }
+    }
+
+    @include responsive(tablet-min) {
+        .content-six-wrapper {
+            width: 80%;
+
+            .content-six-header {
+                height: 10%;
+            }
+
+            .content-six-body {
+                height: 90%;
+
+                .content-six-body-list-item {
+                    .content-six-body-item {
+                        .content-six-body-item-body {
+                            .content-six-body-item-body-author {
+                                span {
+                                    width: 60%;
+                                    font-size: 1.4rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

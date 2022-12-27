@@ -28,7 +28,7 @@
             @content
         };
     }
-    @if $breakpoint == min-destop {
+    @if $breakpoint == min-destop { 
         @media (min-width: 1200px) and (max-width: 1300px) {
             @content
         };

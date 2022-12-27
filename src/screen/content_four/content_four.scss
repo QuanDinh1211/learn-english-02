@@ -61,4 +61,22 @@
             }
         }
     }
+
+    @include responsive(tablet-min) {
+        height: 60rem;
+        .content-four-wrapper {
+            width: 90%;
+            height: 100%;
+
+            .content-four-last {
+                .content-four-last-item {
+                    .content-four-last-item-text {
+                        span {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

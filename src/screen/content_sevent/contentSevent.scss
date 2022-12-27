@@ -41,4 +41,29 @@
             }
         }
     }
+
+    @include responsive(tablet-min) {
+        height: 26rem;
+
+        .content-sevent-wrapper {
+            width: 80%;
+            height: 80%;
+
+            .content-sevent-header {
+                span {
+                    width: 80%;
+                    font-size: 1.6rem;
+                    line-height: 2.4rem;
+                }
+            }
+
+            .content-sevent-body {
+                span {
+                    width: 80%;
+                    font-size: 1.6rem;
+                    line-height: 2.4rem;
+                }
+            }
+        }
+    }
 }

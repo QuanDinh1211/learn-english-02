@@ -22,7 +22,7 @@ const ContentOne = () => {
           </div>
         </div>
       </div>
-      <div className="content-one-logo"></div>
+      <div className="content-one-logo web"></div>
       <div className="content-one-body">
         <div className="content-one-body-wrapper">
           <div className="content-one-body-first">

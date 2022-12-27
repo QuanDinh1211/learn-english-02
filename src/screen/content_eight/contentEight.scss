@@ -108,4 +108,77 @@
             }
         }
     }
+
+    @include responsive(min-destop) {
+        .content-eight-wrapper {
+            width: 80%;
+        }
+    }
+
+    @include responsive(tablet) {
+        .content-eight-wrapper {
+            width: 80%;
+            .content-eight-header {
+                h2 {
+                    font-size: 2.6rem;
+                }
+            }
+        }
+    }
+
+    @include responsive(tablet-min) {
+        height: 60rem;
+        .content-eight-wrapper {
+            width: 90%;
+            justify-content: space-around;
+            .content-eight-header {
+                h2 {
+                    font-size: 2rem;
+                }
+            }
+
+            .content-eight-body {
+                height: 60%;
+
+                .content-eight-body-list-item {
+                    .content-eight-body-item {
+                        width: 32%;
+                        padding: 4rem 1rem;
+                        .content-eight-body-item-icon {
+                            width: 7rem;
+                            height: 7rem;
+                            top: -4rem;
+                            left: 34%;
+                            span {
+                                font-size: 4rem;
+                                font-weight: 700;
+                            }
+                        }
+                        .content-eight-body-item-first {
+                            span {
+                                font-size: 1.6rem;
+                            }
+                        }
+                        .content-eight-body-item-last {
+                            .content-eight-body-item-last-1 {
+                                span {
+                                    font-size: 1.3rem;
+                                    line-height: 2rem;
+                                    font-weight: 500;
+                                }
+                            }
+                            .content-eight-body-item-last-2 {
+
+                                span {
+                                    font-size: 1.3rem;
+                                    line-height: 2rem;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -44,6 +44,10 @@
                         span {
                             font-size: 1.6rem;
                             font-weight: 500;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 1;
+                            -webkit-box-orient: vertical;
+                            overflow: hidden;
                         }
                     }
                 }
@@ -57,4 +61,49 @@
             }
         }
     }
+    @include responsive(min-destop) {
+        .content-tow-wrapper {
+            width: 90%;
+        }
+    }
+
+    @include responsive(tablet) {
+        .content-tow-wrapper {
+            width: 90%;
+
+            .content-tow-bigdesktop-container {
+                width: 100%;
+                .content-tow-bigdesktop-list-item {
+                    .content-tow-bigdesktop-icon {
+                        padding: 0 3rem;
+                    }
+                }
+            }
+        }
+    }
+
+    @include responsive(tablet-min) {
+        .content-tow-wrapper {
+            width: 90%;
+
+            .content-tow-bigdesktop-container {
+                width: 100%;
+                .content-tow-bigdesktop-list-item {
+                    .content-tow-bigdesktop-icon {
+                        padding: 0 1rem;
+                    }
+
+                    .content-tow-bigdesktop-item {
+                        .content-tow-bigdesktop-item-first {
+                            span { 
+                                font-size: 2.6rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
 }

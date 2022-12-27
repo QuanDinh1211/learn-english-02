@@ -78,4 +78,10 @@
             }   
         }
     }
+
+    @include responsive(tablet-min) {
+        .content-three-wrapper {
+            width: 70%;
+        }
+    }
 }
