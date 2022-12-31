@@ -84,4 +84,18 @@
             width: 70%;
         }
     }
+
+    @include responsive(phone) {
+        .content-three-wrapper {
+            width: 90%;
+
+            .content-three-first {
+                height: 30%;
+            }
+
+            .content-three-last {
+                height: 70%;
+            }
+        }
+    }
 }

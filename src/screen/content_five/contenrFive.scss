@@ -112,13 +112,57 @@
             .content-five-first {
                 .content-five-first-wrapper {
                     width: 80%;
-                    .content-five-first-header {
+                    // .content-five-first-header {
 
-                    }
+                    // }
 
                     .content-five-first-body {
                         .content-five-first-body-item {
                             .content-five-first-body-item-icon {
+                                img {
+                                    width: 2.4rem;
+                                }
+                            }
+
+                            .content-five-first-body-item-text {
+                                span {
+                                    font-size: 1.6rem;
+                                    font-weight: 500;
+                                    line-height: 2rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .content-five-last {
+                .content-five-last-wrapper {
+                    width: 70%;
+
+                    .content-five-last-header {
+                        h2 {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include responsive(phone) {
+        height: 90rem;
+        .content-five-wrapper {
+            width: 90%;
+
+            .content-five-first {
+                .content-five-first-wrapper {
+                    width: 90%; 
+
+                    .content-five-first-body {
+                        .content-five-first-body-item {
+                            .content-five-first-body-item-icon {
+                                width: 20%;
                                 img {
                                     width: 2.4rem;
                                 }

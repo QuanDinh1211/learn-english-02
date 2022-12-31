@@ -92,6 +92,11 @@
                     }
                 }
             }
+
+
+            .mobile {
+                display: none;
+            }
         }
     }
 
@@ -121,6 +126,65 @@
                                     font-size: 1.4rem;
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include responsive(phone) {
+        height: 80rem;
+        .content-six-wrapper {
+            width: 80%;
+
+            .content-six-header {
+                height: 10%;
+                h2 {
+                    font-size: 2.2rem;
+                }
+            }
+
+            .content-six-body {
+                height: 90%;
+
+                .destop {
+                    display: none;
+                }
+
+                .mobile {
+                    display: block;
+                }
+
+                .content-six-body-list-item {
+                    .content-six-body-item {
+                        width: 100%;
+                        height: 80%; 
+
+                        .content-six-body-item-body {
+                            .content-six-body-item-body-des {
+                                span {
+                                    font-size: 2rem;
+                                    line-height: 3rem;
+                                }
+                            }
+
+                            .content-six-body-item-body-author {
+                                span {
+                                    width: 60%;
+                                    font-size: 2rem;
+                                }
+                            }
+                        }
+                    }
+                    .content-six-body-item-mobile-next {
+                        width: 100%;
+                        height: 20%;
+                        @include boxCenter();
+
+                        i {
+                            font-size: 5rem;
+                            color: rgb(47, 53, 137);
                         }
                     }
                 }

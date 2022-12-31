@@ -25,8 +25,9 @@ const ContentOne = () => {
       <div className="content-one-logo web"></div>
       <div className="content-one-body">
         <div className="content-one-body-wrapper">
-          <div className="content-one-body-first">
+          <div className="content-one-body-first mobile">
             <img src={require("../../assets/img/contentone1.png")} alt="img" />
+            <div className="content-one-logo"></div>
           </div>
           <div className="content-one-body-last">
             <div className="content-one-body-last-wrapper">

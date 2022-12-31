@@ -79,4 +79,37 @@
             }
         }
     }
+
+    @include responsive(phone) {
+        height: 100rem;
+        .content-four-wrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .content-four-first {
+                height: 50%;
+                width: 100%;
+                .content-four-first-wrapper {
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                }
+            }
+
+            .content-four-last {
+                height: 50%;
+                width: 100%;
+                padding: 0 3rem;
+                .content-four-last-item {
+                    .content-four-last-item-text {
+                        span {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

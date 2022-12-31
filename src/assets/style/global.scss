@@ -89,3 +89,10 @@ a {
 .text-decoration {
     text-decoration: underline;
 }
+
+.hover {
+    &:hover {
+        opacity: 0.9;
+        cursor: pointer;
+    }
+}

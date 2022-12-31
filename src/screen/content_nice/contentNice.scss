@@ -202,4 +202,62 @@
             }
         }
     }
+
+    @include responsive(phone) {
+        height: 1040px;
+        .content-nice-wrapper {
+            width: 90%;
+            height: 96%;
+
+            .content-nice-header {
+                height: 20%;
+                .content-nice-header-title {
+                    width: 90%;
+
+                    h2 {
+                        font-size: 2.2rem;
+                        line-height: 3.4rem;
+                    }
+                }
+
+                .content-nice-header-des {
+                    h3 {
+                        font-size: 2rem;
+                    }
+                }
+            }
+
+            .content-nice-body {
+                height: 80%;
+                .content-nice-body-list {
+                    width: 90%;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    .content-nice-body-item {
+                        width: 100%;
+                        height: 28%;
+                        padding: 2rem;
+                        .content-nice-body-item-first {
+                            span {
+                                font-size: 2.4rem;
+                            }
+                        }
+
+                        .content-nice-body-item-center {
+                            span {
+                                font-size: 6rem;
+                            }
+                        }
+
+                        .content-nice-body-item-last {
+                            .content-nice-body-item-last-btn {
+                                width: 26rem;
+                                height: 5.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
