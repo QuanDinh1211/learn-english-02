@@ -4,11 +4,11 @@ import "./content_three.scss";
 
 const ContentThree = () => {
   return (
-    <div className="content-three-container">
+    <div className="content-three-01-container">
       <div className="content-three-wrapper">
         <div className="content-three-first">
           <div className="content-three-item-first-wrapper">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/v_oUr0hbF9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/o_VWJ3s0sRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
         <div className="content-three-last">
@@ -20,7 +20,7 @@ const ContentThree = () => {
                 </div>
                 <div className="content-three-body-item-text">
                   <span>
-                  Bạn tìm khóa học Tiếng anh cấp tốc?.
+                  Cô Telesa là giáo viên Tiếng anh chuẩn TESOL, giàu kinh nghiệm.
                   </span>
                 </div>
               </div>
@@ -30,24 +30,13 @@ const ContentThree = () => {
                 </div>
                 <div className="content-three-body-item-text">
                   <span>
-                  Bạn cần phương pháp học tập Tiếng anh hiệu quả?.
-                  </span>
-                </div>
-              </div>
-              <div className="content-three-body-item">
-                <div className="content-three-body-item-icon">
-                  <i className="fas fa-star"></i>
-                </div>
-                <div className="content-three-body-item-text">
-                  <span>
-                  Bạn muốn giáo viên tâm huyết?
+                  Sẵn sàng mang đến cho bạn 1 điều DIỆU KỲ !!!.
                   </span>
                 </div>
               </div>
               <div className="contentthree-last-header">
                 <h2>
-                Đừng bỏ lỡ video này! <br></br>
-                Don't miss out this opportunity which may change your life
+                Bạn có muốn biết là gì không?
                 </h2>
               </div>
             </div>

@@ -8,31 +8,27 @@ const ContentFour = () => {
       <div className="content-four-wrapper">
         <div className="content-four-first">
           <div className="content-four-first-wrapper">
-            <img src={require("../../assets/img/contentfour.jpg")} alt="img" />
+            <img src={require("../../assets/img/contentfour.png")} alt="img" />
           </div>
         </div>
         <div className="content-four-last">
           <div className="content-four-last-item">
             <div className="content-four-last-item-title">
-              <h2>Here’s the truth:</h2>
+              <h2>SỰ THẬT LÀ</h2>
             </div>
             <div className="content-four-last-item-text">
               <span>
-                There are a million moving parts and pieces, analysis paralysis,
-                and shiny object syndrome that prevent you from doing what you
-                want, and most importantly, from actually earning money.
+              bạn đang có cơ hội trải nghiệm học tiếng Anh 1-1 chỉ với 8.888k
               </span>
             </div>
           </div>
           <div className="content-four-last-item">
             <div className="content-four-last-item-title">
-              <h2>What if you could…</h2>
+              <h2>NẮM LẤY CƠ HỘI NÀY</h2>
             </div>
             <div className="content-four-last-item-text">
               <span>
-                Have a step-by-step, easy-to-understand system to walk you
-                through everything you need to start monetizing your content on
-                Instagram…by growing a 1:1 online coaching program?
+              Bạn đã nằm trong TOP 1% D N SỐ VIỆT NAM có thể nói Tiếng anh LƯU LOÁT
               </span>
             </div>
           </div>

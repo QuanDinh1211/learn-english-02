@@ -8,7 +8,7 @@ const ContentEight = () => {
       <div className="content-eight-wrapper">
         <div className="content-eight-header">
           <h2>
-            If you’re like most content creators, here’s why you might be stuck:
+          ĐĂNG KÝ KHOÁ HỌC
           </h2>
         </div>
         <div className="content-eight-body">
@@ -18,22 +18,7 @@ const ContentEight = () => {
                 <span>1</span>
               </div>
               <div className="content-eight-body-item-first">
-                <span>YOU’RE USING INSTAGRAM WRONG.</span>
-              </div>
-              <div className="content-eight-body-item-last">
-                <div className="content-eight-body-item-last-1">
-                  <span>
-                    Too many content creators get caught up being content
-                    machines and focusing on the WRONG things. This leads to
-                    burning out REAL quick without getting ANY return on effort.
-                  </span>
-                </div>
-                <div className="content-eight-body-item-last-2">
-                  <span>
-                    You disappear on the ‘gram until the next inspiration spurt
-                    hits.
-                  </span>
-                </div>
+                <span>ĐỂ LẠI THÔNG TIN ĐỂ ĐƯỢC HƯỚNG DẪN THAM GIA KHOÁ HỌC</span>
               </div>
             </div>
             <div className="content-eight-body-item">
@@ -41,22 +26,7 @@ const ContentEight = () => {
                 <span>2</span>
               </div>
               <div className="content-eight-body-item-first">
-                <span>YYOU HAVEN’T CLARIFIED YOUR OFFER.</span>
-              </div>
-              <div className="content-eight-body-item-last">
-                <div className="content-eight-body-item-last-1">
-                  <span>
-                    Perfecting your captions, your feed, your website, or how
-                    you position yourself as a content creator means NOTHING if
-                    you don’t actually have something to SELL.
-                  </span>
-                </div>
-                <div className="content-eight-body-item-last-2">
-                  <span>
-                    If you don’t understand your own positioning within the
-                    market, then don’t expect your followers to either.
-                  </span>
-                </div>
+                <span>ĐƯỢC CẤP TÀI KHOẢN VÀ ADD VÀO NHÓM KÍN DÀNH RIÊNG CHO HỌC VIÊN</span>
               </div>
             </div>
             <div className="content-eight-body-item">
@@ -64,22 +34,16 @@ const ContentEight = () => {
                 <span>3</span>
               </div>
               <div className="content-eight-body-item-first">
-                <span>YOU DON’T HAVE A SYSTEM TO CONVERT.</span>
+                <span>BẮT ĐẦU HỌC THEO LỘ TRÌNH VÀ UP BÀI TẬP LÊN NHÓM </span>
               </div>
-              <div className="content-eight-body-item-last">
-                <div className="content-eight-body-item-last-1">
-                  <span>
-                    Being on Instagram is great, but being on it TOO MUCH can
-                    also prevent you from moving forward.
-                  </span>
-                </div>
-                <div className="content-eight-body-item-last-2">
-                  <span>
-                    Do you have the necessary sales and marketing processes in
-                    place to turn your followers into PAYING CLIENTS? If not,
-                    then you’re leaving A LOT of money on the table.
-                  </span>
-                </div>
+            </div>
+            <div className="content-eight-body-item">
+              <div className="content-eight-body-item-icon">
+                <span>4</span>
+              </div>
+              <div className="content-eight-body-item-first">
+                <span>ĐƯỢC ADMIN SỬA BÀI VÀ  GIẢI ĐÁP THẮC MẮC
+</span>
               </div>
             </div>
           </div>

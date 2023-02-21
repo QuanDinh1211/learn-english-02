@@ -51,10 +51,10 @@ const ContentTow = () => {
           <div className="content-tow-bigdesktop-list-item">
             <div className="content-tow-bigdesktop-item">
               <div className="content-tow-bigdesktop-item-first">
-                <span>6,000+</span>
+                <span>252</span>
               </div>
               <div className="content-tow-bigdesktop-item-last">
-                <span>STUDENTS SERVER IN ...</span>
+                <span>VIDEO CLIPS TRONG KHÓA HỌC</span>
               </div>
             </div>
             <div className="content-tow-bigdesktop-icon">
@@ -62,10 +62,10 @@ const ContentTow = () => {
             </div>
             <div className="content-tow-bigdesktop-item">
               <div className="content-tow-bigdesktop-item-first">
-                <span>100+</span>
+                <span>13</span>
               </div>
               <div className="content-tow-bigdesktop-item-last">
-                <span>COUNTRIES ACROSS ...</span>
+                <span>MOVIES</span>
               </div>
             </div>
             <div className="content-tow-bigdesktop-icon">
@@ -73,10 +73,10 @@ const ContentTow = () => {
             </div>
             <div className="content-tow-bigdesktop-item">
               <div className="content-tow-bigdesktop-item-first">
-                <span>1,000+</span>
+                <span>43</span>
               </div>
               <div className="content-tow-bigdesktop-item-last">
-                <span>NICHES WITH ...</span>
+                <span>BÀI HỌC TƯƠNG TÁC</span>
               </div>
             </div>
             <div className="content-tow-bigdesktop-icon">
@@ -84,10 +84,18 @@ const ContentTow = () => {
             </div>
             <div className="content-tow-bigdesktop-item">
               <div className="content-tow-bigdesktop-item-first">
-                <span>$2.337 USD+</span>
+                <span>12</span>
               </div>
               <div className="content-tow-bigdesktop-item-last">
-                <span>$2.337 USD+</span>
+                <span>VIDEO TỰ QUAY</span>
+              </div>
+            </div>
+            <div className="content-tow-bigdesktop-item">
+              <div className="content-tow-bigdesktop-item-first">
+                <span>03</span>
+              </div>
+              <div className="content-tow-bigdesktop-item-last">
+                <span>VIDEO HỌC NGẮN MỖI NGÀY</span>
               </div>
             </div>
           </div>

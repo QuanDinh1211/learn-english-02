@@ -9,14 +9,17 @@ const ContentNice = () => {
       <div className="content-nice-wrapper">
         <div className="content-nice-header">
           <div className="content-nice-header-title">
-            <h2>READY TO FINALLY BE THE BOSS OF YOUR BUSINESS?</h2>
+            <h2>Nhận ngay ưu đãi</h2>
           </div>
+          {/*
           <div className="content-nice-header-des">
             <h3>READY TO FINALLY BE THE BOSS OF YOUR BUSINESS?</h3>
           </div>
+  */}
         </div>
         <div className="content-nice-body">
           <div className="content-nice-body-list">
+            {/*}
             <div className="content-nice-body-item">
               <div className="content-nice-body-item-first">
                 <span>10 MONTHLY PAYMENTS OF</span>
@@ -49,6 +52,7 @@ const ContentNice = () => {
                 </div>
               </div>
             </div>
+*/}
             <div className="content-nice-body-item content-nice-body-item-access">
               <div className="content-nice-body-item-first">
                 <span>ONE-TIME PAYMENT</span>
@@ -61,7 +65,7 @@ const ContentNice = () => {
               </div>
               <div className="content-nice-body-item-last">
                 <div className="content-nice-body-item-last-btn">
-                  <Button value="ENROLL NOW" />
+                  <Button value="ĐĂNG KÝ NGAY" />
                 </div>
               </div>
             </div>

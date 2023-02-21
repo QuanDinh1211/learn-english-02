@@ -41,7 +41,7 @@ const ContentSix = () => {
     <div className="content-six-container">
       <div className="content-six-wrapper">
         <div className="content-six-header">
-          <h2>Results speak louder than words:</h2>
+          <h2>Và học viên nói gì về cô Telesa ?</h2>
         </div>
         <div className="content-six-body">
           <div className="content-six-body-list-item destop">
@@ -59,19 +59,19 @@ const ContentSix = () => {
                   ></iframe>
                 </div>
                 <div className="content-six-body-item-header-tittle">
-                  <h2>“$2,500 in 2 weeks!”</h2>
+                  <h2>Linda Nguyen</h2>
                 </div>
               </div>
               <div className="content-six-body-item-body">
                 <div className="content-six-body-item-body-des">
                   <span>
-                    “Within two weeks of signing on the program, I signed on new
-                    clients and made 2,500 dollars. I would highly recommend
-                    that you invest in The BOSSGRAM Academy.”
+                    “Giáo viên nhiệt tình, nhiều tâm huyết . 
+                    với tôi là người mù tiếng anh và luôn xếp nhất lớp từ dưới lên bây giờ tôi có thể tự tin nói chuyện với boyfriend . 
+                    cảm ơn ms rất nhiều với sự chú đáo , nhiệt tình,và kiên nhẫn dành cho tôi.thank you very much”
                   </span>
                 </div>
                 <div className="content-six-body-item-body-author">
-                  <span>Cecilia Makinde, Mindset Coach</span>
+                  <span>Đang sinh sống và làm việc ở nước ngoài</span>
                 </div>
               </div>
             </div>
@@ -89,20 +89,19 @@ const ContentSix = () => {
                   ></iframe>
                 </div>
                 <div className="content-six-body-item-header-tittle">
-                  <h2>“17 clients in just a few months.”</h2>
+                  <h2>“Thanh Nguyên”</h2>
                 </div>
               </div>
               <div className="content-six-body-item-body">
                 <div className="content-six-body-item-body-des">
                   <span>
-                    “Within the past few months, I’ve been able to work with
-                    over ten clients. I knew that Vanessa would have great
-                    content, but I didn’t realize how rich it would be and how
-                    much it would change me as an entrepreneur.”
+                    “Cô giáo vui lắm lắm luôn í, rất nhiệt tình. Mình tự nhận mình là một đứa không có năng khiếu học tiếng anh ấy, học chậm, 
+                    hay quên, đọc sai tè le vậy mà từ khi học cô, cô tận tình chỉ cho từng chút, cô rất kiên nhẫn với mình, 
+                    hay động viên và gọi điện chỉ riêng cho mình những lỗi sai hay củng cố lại kiến thức mà trên lớp mình theo không kịp..”
                   </span>
                 </div>
                 <div className="content-six-body-item-body-author">
-                  <span>Brian Hough, Business Coach</span>
+                  <span>Nhân viên bán hàng</span>
                 </div>
               </div>
             </div>
@@ -120,20 +119,18 @@ const ContentSix = () => {
                   ></iframe>
                 </div>
                 <div className="content-six-body-item-header-tittle">
-                  <h2>“7k in my first month of business.”</h2>
+                  <h2>“QUin Huỳnh”</h2>
                 </div>
               </div>
               <div className="content-six-body-item-body">
                 <div className="content-six-body-item-body-des">
                   <span>
-                    “Within three weeks of joining the BGA program, I not only
-                    made back my money, but I had a profit. I hit literally 7K
-                    within my first month of business! BGA’s investment is
-                    incredibly affordable for the results you gain.”
+                    “Telesa is my English teacher, her class always is full of energy, she usually asks us to present the topic to correct our Pronunciation, 
+                    Grammar and gives us the Feedback each 10 sections.That action helps us improve our weaknesses and become more confident to speak.”
                   </span>
                 </div>
                 <div className="content-six-body-item-body-author">
-                  <span>Azia To, Business Coach</span>
+                  <span>Đại lý du lịch</span>
                 </div>
               </div>
             </div>

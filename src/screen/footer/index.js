@@ -20,6 +20,7 @@ const Footer = () => {
               <i className="fab fa-facebook-square"></i>
             </a>
           </div>
+          {/*
           <div className="footer-item-last-icon">
             <a href="https://www.tiktok.com/@learnenglishwithtelesa?lang=en">
               <i className="fab fa-tiktok"></i>
@@ -30,6 +31,7 @@ const Footer = () => {
               <i className="fas fa-users"></i>
             </a>
           </div>
+  */}
         </div>
       </div>
     </div>

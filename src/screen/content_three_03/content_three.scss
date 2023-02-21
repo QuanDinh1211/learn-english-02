@@ -1,0 +1,102 @@
+@import '../../assets/style/mixin.scss';
+
+.content-three-03-container {
+    width: 100%;
+    height: 100rem;
+    background-color: #fdefe9;
+    @include boxCenter();
+
+    .content-three-wrapper {
+        width: 50%;
+        height: 90%;
+        .content-three-first {
+            width: 100%;
+            height: 50%;
+            .content-three-item-first-wrapper {
+                width: 100%;
+                height: 94%; 
+
+            }
+        }
+
+        .content-three-last {
+            width: 100%;
+            height: 50%;
+
+            .content-three-last-wrapper {
+                width: 100%;
+                height: 100%;
+                .contentthree-last-header {
+                    width: 100%;
+                    height: 30%;
+                    display: flex;
+                    align-items: center;
+                    h2 {
+                        padding: 0 2rem;
+                        font-size: 3rem;
+                        line-height: 3.8rem;
+                        color: rgba(47,53,137,1);
+                    }
+                }
+
+                .content-three-last-body {
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .content-three-body-item {
+                        width: 100%;
+                        height: 32%;
+                        display: flex;
+                        align-items: center;
+                        padding: 0 2rem;
+                        .content-three-body-item-icon {
+                            width: 6rem;
+                            height: 80%;
+                            display: flex;
+                            align-items: center;
+                            i {
+                                font-size: 3rem;
+                                color: #fbda43;
+                            }
+                        }
+
+                        .content-three-body-item-text {
+                            flex: 1;
+                            height: 80%;
+                            display: flex;
+                            align-items: center;
+                            span {
+                                width: 100%;
+                                font-size: 2rem;
+                                line-height: 3rem;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }   
+        }
+    }
+
+    @include responsive(tablet-min) {
+        .content-three-wrapper {
+            width: 70%;
+        }
+    }
+
+    @include responsive(phone) {
+        .content-three-wrapper {
+            width: 90%;
+
+            .content-three-first {
+                height: 30%;
+            }
+
+            .content-three-last {
+                height: 70%;
+            }
+        }
+    }
+}
