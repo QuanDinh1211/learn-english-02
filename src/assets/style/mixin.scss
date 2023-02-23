@@ -18,11 +18,24 @@
         };
     }
 
+    @if $breakpoint == phones {
+        @media (min-width: 500px) and (max-width: 600px) {
+            @content
+        };
+    }
+
     @if $breakpoint == tablet-min {
         @media (min-width: 600px) and (max-width: 900px) {
             @content
         };
     }
+
+    @if $breakpoint == tablet-mini {
+        @media (min-width: 600px) and (max-width: 750px) {
+            @content
+        };
+    }
+
     @if $breakpoint == tablet {
         @media (min-width: 900px) and (max-width: 1200px) {
             @content

@@ -81,7 +81,7 @@
     }
 
     @include responsive(phone) {
-        height: 100rem;
+        height: 90rem;
         .content-four-wrapper {
             width: 100%;
             height: 100%;
@@ -89,7 +89,7 @@
             flex-direction: column;
 
             .content-four-first {
-                height: 50%;
+                height: 70%;
                 width: 100%;
                 .content-four-first-wrapper {
                     width: 100%;
@@ -99,7 +99,44 @@
             }
 
             .content-four-last {
-                height: 50%;
+                height: 30%;
+                width: 100%;
+                padding: 0 3rem;
+                .content-four-last-item {
+                    .content-four-last-item-text {
+                        span {
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include responsive(phones) {
+        height: 100rem;
+        .content-four-wrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .content-four-first {
+                height: 70%;
+                width: 100%;
+                .content-four-first-wrapper {
+                    width: 90%;
+                    height: 100%;
+                    overflow: hidden;
+
+                    img {
+                        width: 60%;
+                    }
+                }
+            }
+
+            .content-four-last {
+                height: 30%;
                 width: 100%;
                 padding: 0 3rem;
                 .content-four-last-item {

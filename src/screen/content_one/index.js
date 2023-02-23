@@ -6,10 +6,9 @@ import Button from "../../components/layout/button";
 const ContentOne = () => {
   return (
     <div className="content-one-container">
-      
       <div className="content-one-header">
         <div className="content-one-header-list-item">
-           {/*}
+          {/*}
           <div className="content-one-header-item">
             <a href="#asdasd1">HOME</a>
           </div>
@@ -25,7 +24,7 @@ const ContentOne = () => {
         */}
         </div>
       </div>
-    {/*}
+      {/*}
       <div className="content-one-logo web"></div>
   */}
       <div className="content-one-body">
@@ -46,13 +45,11 @@ const ContentOne = () => {
               </div>
               <div className="content-one-body-last-body">
                 <div className="content-one-body-last-body-text">
-                  <span>
-                  1 tháng? 1 năm? hay….?.
-                  </span>
+                  <span>1 tháng? 1 năm? hay….?.</span>
                 </div>
                 <div className="content-one-body-last-body-btn">
                   <div className="content-one-body-last-body-btn-wrapper">
-                    <Button value="ĐĂNG KÝ NGAY" />
+                    {/* <Button value="ĐĂNG KÝ NGAY" /> */}
                   </div>
                 </div>
               </div>

@@ -35,7 +35,7 @@
                 justify-content: space-between;
                 .content-eight-body-item {
                     width: 31%;
-                    height: 100%;
+                    height: 80%;
                     display: flex;
                     align-items: center;
                     flex-direction: column;
@@ -46,14 +46,16 @@
                     background-color: rgba(255,255,255,1);
 
                     .content-eight-body-item-icon {
-                        width: 11rem;
-                        height: 11rem;
+                        $widthBox : 10rem;
+                        width: $widthBox;
+                        height: $widthBox;
                         @include boxCenter();
                         background-color: #fbda43;
                         border-radius: 50%;
                         position: absolute;
                         top: -7rem;
-                        left: 32%;
+                        left: calc(50% - $widthBox / 2);
+                        
                         span {
                             font-size: 5rem;
                             font-weight: 900;
@@ -65,7 +67,8 @@
                         width: 100%;
                         @include boxCenter();
                         span {
-                            font-size: 2rem;
+                            font-size: 1.6rem;
+                            line-height: 2rem;
                             font-weight: 700;
                             text-align: center;
                             color:rgba(60,114,184,1);
@@ -148,7 +151,7 @@
                             width: 7rem;
                             height: 7rem;
                             top: -4rem;
-                            left: 34%;
+                            left: calc(50% - 7rem / 2);
                             span {
                                 font-size: 4rem;
                                 font-weight: 700;
@@ -156,7 +159,8 @@
                         }
                         .content-eight-body-item-first {
                             span {
-                                font-size: 1.6rem;
+                                font-size: 1.2rem;
+                                line-height: 1.6rem;
                             }
                         }
                         .content-eight-body-item-last {
@@ -186,8 +190,11 @@
         height: 1500px;
         .content-eight-wrapper {
             width: 90%;
+            height: 100%;
+            padding: 2rem 0;
             justify-content: space-around;
             .content-eight-header {
+                height: 4%;
                 h2 {
                     font-size: 3rem;
                     line-height: 3.6rem;
@@ -198,7 +205,7 @@
             }
 
             .content-eight-body {
-                height: 86%;
+                height: 90%;
 
                 .content-eight-body-list-item {
                     width: 90%;
@@ -206,21 +213,21 @@
 
                     .content-eight-body-item {
                         width: 100%;
-                        height: 28%;
+                        height: 20%;
                         padding: 4rem 1rem;
                         .content-eight-body-item-icon {
                             width: 10rem;
                             height: 10rem;
                             top: -6rem;
-                            left: 36%;
                             span {
                                 font-size: 4rem;
                                 font-weight: 700;
                             }
                         }
                         .content-eight-body-item-first {
+                            margin-top: 2rem;
                             span {
-                                font-size: 2.2rem;
+                                font-size: 2rem;
                                 line-height: 2.6rem;
                             }
                         }

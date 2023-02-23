@@ -7,9 +7,7 @@ const ContentEight = () => {
     <div className="content-eight-container">
       <div className="content-eight-wrapper">
         <div className="content-eight-header">
-          <h2>
-          ĐĂNG KÝ KHOÁ HỌC
-          </h2>
+          <h2>ĐĂNG KÝ KHOÁ HỌC</h2>
         </div>
         <div className="content-eight-body">
           <div className="content-eight-body-list-item">
@@ -18,7 +16,9 @@ const ContentEight = () => {
                 <span>1</span>
               </div>
               <div className="content-eight-body-item-first">
-                <span>ĐỂ LẠI THÔNG TIN ĐỂ ĐƯỢC HƯỚNG DẪN THAM GIA KHOÁ HỌC</span>
+                <span>
+                  ĐỂ LẠI THÔNG TIN ĐỂ ĐƯỢC HƯỚNG DẪN THAM GIA KHOÁ HỌC
+                </span>
               </div>
             </div>
             <div className="content-eight-body-item">
@@ -26,7 +26,9 @@ const ContentEight = () => {
                 <span>2</span>
               </div>
               <div className="content-eight-body-item-first">
-                <span>ĐƯỢC CẤP TÀI KHOẢN VÀ ADD VÀO NHÓM KÍN DÀNH RIÊNG CHO HỌC VIÊN</span>
+                <span>
+                  ĐƯỢC CẤP TÀI KHOẢN VÀ ADD VÀO NHÓM KÍN DÀNH RIÊNG CHO HỌC VIÊN
+                </span>
               </div>
             </div>
             <div className="content-eight-body-item">
@@ -42,8 +44,7 @@ const ContentEight = () => {
                 <span>4</span>
               </div>
               <div className="content-eight-body-item-first">
-                <span>ĐƯỢC ADMIN SỬA BÀI VÀ  GIẢI ĐÁP THẮC MẮC
-</span>
+                <span>ĐƯỢC ADMIN SỬA BÀI VÀ GIẢI ĐÁP THẮC MẮC</span>
               </div>
             </div>
           </div>
