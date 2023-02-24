@@ -42,12 +42,11 @@
                         height: 40%;
                         @include boxCenter();
                         span {
-                            font-size: 1.6rem;
+                            font-size: 1.4rem;
+                            line-height: 2rem;
+                            margin-top: 1rem;
                             font-weight: 500;
-                            display: -webkit-box;
-                            -webkit-line-clamp: 1;
-                            -webkit-box-orient: vertical;
-                            overflow: hidden;
+                            text-align: center;
                         }
                     }
                 }
@@ -101,6 +100,14 @@
                         .content-tow-bigdesktop-item-first {
                             span { 
                                 font-size: 2.6rem;
+                            }
+                        }
+                        .content-tow-bigdesktop-item-last { 
+                            @include boxCenter();
+                            span {
+                                font-size: 1.2rem;
+                                line-height: 1.8rem;
+                                margin-top: 1rem;
                             }
                         }
                     }

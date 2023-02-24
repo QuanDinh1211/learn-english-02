@@ -267,7 +267,7 @@
     }
 
     @include responsive(phone) {
-        height: 94rem;
+        height: 60rem;
 
         .web {
             display: none;
@@ -313,8 +313,8 @@
                         background-position: center;
                         position: absolute;
                         background-repeat: no-repeat;
-                        top: 1rem;
-                        left: -3rem;
+                        top: 0rem;
+                        left: -4rem;
                         z-index: 100;
                     }
                 }
@@ -326,8 +326,11 @@
                     .content-one-body-last-wrapper {
                         margin: 0;
                         height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
                         .content-one-body-last-header { 
-                            height: 40%;
+                            height: 60%;
                             margin: 0;
                             .content-one-body-last-header-text-1 {
                                 margin: 0;
@@ -339,13 +342,13 @@
 
                             .content-one-body-last-header-text-2 {
                                 h1 {
-                                    font-size: 3.4rem;
+                                    font-size: 3rem;
                                 }
                             }
                         }
 
                         .content-one-body-last-body {
-                            height: 60%;
+                            height: 20%;
                         }
                     }
                 }

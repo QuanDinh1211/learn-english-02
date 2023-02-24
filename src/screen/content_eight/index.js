@@ -2,6 +2,8 @@ import React from "react";
 
 import "./contentEight.scss";
 
+import Button from "../../components/layout/button";
+
 const ContentEight = () => {
   return (
     <div className="content-eight-container">
@@ -46,6 +48,11 @@ const ContentEight = () => {
               <div className="content-eight-body-item-first">
                 <span>ĐƯỢC ADMIN SỬA BÀI VÀ GIẢI ĐÁP THẮC MẮC</span>
               </div>
+            </div>
+          </div>
+          <div className="content-eight-body-btn">
+            <div className="content-eight-body-btn-item">
+              <Button value="ĐĂNG KÝ NGAY!" />
             </div>
           </div>
         </div>

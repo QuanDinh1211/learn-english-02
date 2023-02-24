@@ -28,9 +28,10 @@
             width: 100%;
             height: 70%;
             @include boxCenter();
+            flex-direction: column;
             .content-eight-body-list-item {
                 width: 100%;
-                height: 100%;
+                height: 60%;
                 display: flex;
                 justify-content: space-between;
                 .content-eight-body-item {
@@ -38,7 +39,7 @@
                     height: 80%;
                     display: flex;
                     align-items: center;
-                    flex-direction: column;
+                    justify-content: center;
                     border: 2px solid rgba(60,114,184,1);
                     position: relative;
                     padding: 4rem 2rem;
@@ -53,7 +54,7 @@
                         background-color: #fbda43;
                         border-radius: 50%;
                         position: absolute;
-                        top: -7rem;
+                        top: -5rem;
                         left: calc(50% - $widthBox / 2);
                         
                         span {
@@ -63,7 +64,7 @@
                     }
 
                     .content-eight-body-item-first {
-                        height: 20%;
+                        height: 60%;
                         width: 100%;
                         @include boxCenter();
                         span {
@@ -75,38 +76,48 @@
                         }
                     }
 
-                    .content-eight-body-item-last {
-                        width: 100%;
-                        height: 80%;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        .content-eight-body-item-last-1 {
-                            width: 100%;
-                            height: 50%;
-                            @include boxCenter();
-                            span {
-                                font-size: 2rem;
-                                line-height: 2.4rem;
-                                text-align: center;
-                            }
-                        }
+                    // .content-eight-body-item-last {
+                    //     width: 100%;
+                    //     height: 80%;
+                    //     display: flex;
+                    //     flex-direction: column;
+                    //     align-items: center;
+                    //     .content-eight-body-item-last-1 {
+                    //         width: 100%;
+                    //         height: 50%;
+                    //         @include boxCenter();
+                    //         span {
+                    //             font-size: 2rem;
+                    //             line-height: 2.4rem;
+                    //             text-align: center;
+                    //         }
+                    //     }
 
-                        .content-eight-body-item-last-2 {
-                            width: 100%;
-                            height: 50%;
-                            @include boxCenter();
-                            span {
-                                font-size: 2rem;
-                                line-height: 2.4rem;
-                                text-align: center;
-                            }
-                        }
-                    }
+                    //     .content-eight-body-item-last-2 {
+                    //         width: 100%;
+                    //         height: 50%;
+                    //         @include boxCenter();
+                    //         span {
+                    //             font-size: 2rem;
+                    //             line-height: 2.4rem;
+                    //             text-align: center;
+                    //         }
+                    //     }
+                    // }
 
                     &:hover {
                         background-color: rgba(255, 255, 255, 0.34);
                     }
+                }
+            }
+
+            .content-eight-body-btn {
+                width: 100%;
+                height: 40%;
+                @include boxCenter();
+                .content-eight-body-btn-item {
+                    width: 20rem;
+                    height: 5rem;
                 }
             }
         }
@@ -209,6 +220,7 @@
 
                 .content-eight-body-list-item {
                     width: 90%;
+                    height: 90%;
                     flex-direction: column;
 
                     .content-eight-body-item {
@@ -249,6 +261,11 @@
                             }
                         }
                     }
+                }
+
+                .content-eight-body-btn {
+                    height: 10%;
+                
                 }
             }
         }

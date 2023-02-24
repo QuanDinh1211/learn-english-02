@@ -61,7 +61,15 @@ const VideoContent = ({
             <div className="videoContent-footer-list-item">
               {dataDes.map((desText, index) => {
                 return (
-                  <div key={index} className="videoContent-footer-item">
+                  <div
+                    key={index}
+                    className={
+                      desText === "Đừng bỏ lỡ video này!" ||
+                      desText === "Sẵn sàng mang đến cho bạn 1 điều DIỆU KỲ !!!"
+                        ? "videoContent-footer-item background-yellow"
+                        : "videoContent-footer-item"
+                    }
+                  >
                     <span>{desText}</span>
                   </div>
                 );

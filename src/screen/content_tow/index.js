@@ -8,23 +8,28 @@ const ContentTow = () => {
   const dataContenTow = [
     {
       id: 1,
-      title: "6,000+",
-      description: "STUDENTS SERVER IN ...",
+      title: "252",
+      description: "VIDEO CLIPS TRONG KHOÁ HỌC",
     },
     {
       id: 2,
-      title: "100+",
-      description: "COUNTRIES ACROSS ...",
+      title: "13",
+      description: "MOVIES",
     },
     {
       id: 3,
-      title: "1,000+",
-      description: "NICHES WITH ...",
+      title: "43",
+      description: "BÀI HỌC TƯƠNG TÁC",
     },
     {
       id: 4,
-      title: "$2.337 USD+",
-      description: "$2.337 USD+",
+      title: "12",
+      description: "VIDEO TỰ QUAY",
+    },
+    {
+      id: 5,
+      title: "3",
+      description: "VIDEO HỌC NGẮN MỖI NGÀY",
     },
   ];
 
@@ -89,6 +94,9 @@ const ContentTow = () => {
               <div className="content-tow-bigdesktop-item-last">
                 <span>VIDEO TỰ QUAY</span>
               </div>
+            </div>
+            <div className="content-tow-bigdesktop-icon">
+              <i className="fas fa-chevron-right"></i>
             </div>
             <div className="content-tow-bigdesktop-item">
               <div className="content-tow-bigdesktop-item-first">

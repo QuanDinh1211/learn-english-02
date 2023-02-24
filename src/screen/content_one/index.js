@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./contenOne.scss";
-import Button from "../../components/layout/button";
+// import Button from "../../components/layout/button";
 
 const ContentOne = () => {
   return (
