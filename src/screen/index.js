@@ -24,7 +24,7 @@ const Content = () => {
         "Đừng bỏ lỡ video này!",
         "Don't miss out this opportunity which may change your life",
       ],
-      isbtn: false,
+      isbtn: true,
     },
     section_2: {
       title: "Tôi là ai?",
@@ -35,7 +35,7 @@ const Content = () => {
         "Sẵn sàng mang đến cho bạn 1 điều DIỆU KỲ !!!",
         "Bạn có muốn biết là gì không?",
       ],
-      isbtn: false,
+      isbtn: true,
     },
     section_3: {
       title:
@@ -48,7 +48,7 @@ const Content = () => {
         " Chưa gặp được giáo viên có chuyên môn và kinh nghiệm?",
       ],
       dataDes: [],
-      isbtn: false,
+      isbtn: true,
     },
     section_4: {
       title: "Cô Telesa làm gì để giúp học viên nói được tiếng Anh?",
@@ -70,7 +70,7 @@ const Content = () => {
       dataDes: [
         "Bao gồm: 252 clips - bài tập - nhóm học - ghi hình - ghi âm - chỉnh sửa  - 3 tháng - 90 ngày",
       ],
-      isbtn: false,
+      isbtn: true,
     },
     section_6: {
       title: "Học viên nói gì về cô Telesa?",

@@ -40,6 +40,7 @@ const ContentTow = () => {
       setindexData(indexData + 1);
     }
   };
+  
 
   const handleMinIndexdata = () => {
     if (indexData === 0) {
@@ -52,6 +53,9 @@ const ContentTow = () => {
   return (
     <div className="content-tow-container">
       <div className="content-tow-wrapper">
+        <div className="content-tow-title">
+            <h2>Khóa học bao gồm</h2>
+        </div>
         <div className="content-tow-bigdesktop-container">
           <div className="content-tow-bigdesktop-list-item">
             <div className="content-tow-bigdesktop-item">
