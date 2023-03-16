@@ -6,27 +6,7 @@ import "./contenOne.scss";
 const ContentOne = () => {
   return (
     <div className="content-one-container">
-      <div className="content-one-header">
-        <div className="content-one-header-list-item">
-          {/*}
-          <div className="content-one-header-item">
-            <a href="#asdasd1">HOME</a>
-          </div>
-          <div className="content-one-header-item">
-            <a href="#sdasd">FAQ</a>
-          </div>
-          <div className="content-one-header-item">
-            <a href="#asda">REVIEWS</a>
-          </div>
-          <div className="content-one-header-item">
-            <a href="#dad">THE DETAILS</a>
-          </div>
-        */}
-        </div>
-      </div>
-      {/*}
-      <div className="content-one-logo web"></div>
-  */}
+     
       <div className="content-one-body">
         <div className="content-one-body-wrapper">
           <div className="content-one-body-first mobile">

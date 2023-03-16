@@ -18,7 +18,7 @@ const ContentFour = () => {
             </div>
             <div className="content-four-last-item-text">
               <span>
-              bạn đang có cơ hội trải nghiệm học tiếng Anh 1-1 chỉ với 8.888k
+              Bạn đang có cơ hội trải nghiệm học tiếng Anh 1-1 chỉ với 8.888k
               </span>
             </div>
           </div>
@@ -28,7 +28,7 @@ const ContentFour = () => {
             </div>
             <div className="content-four-last-item-text">
               <span>
-              Bạn đã nằm trong TOP 1% D N SỐ VIỆT NAM có thể nói Tiếng anh LƯU LOÁT
+              Bạn đã nằm trong TOP 1% DÂN SỐ VIỆT NAM có thể nói Tiếng anh LƯU LOÁT
               </span>
             </div>
           </div>
