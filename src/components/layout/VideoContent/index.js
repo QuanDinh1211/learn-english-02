@@ -35,7 +35,7 @@ const VideoContent = ({
               height="100%"
               src={urlVideo}
               title="YouTube video player"
-              sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation"
+              sandbox="allow-presentation allow-forms allow-scripts allow-pointer-lock allow-same-origin allow-top-navigation"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             ></iframe>
           </div>

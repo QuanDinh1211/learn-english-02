@@ -2,56 +2,53 @@
 
 .content-six-container {
     width: 100%;
-    height: 64rem;
     @include boxCenter();
     background-color: #fdefe9;
     .content-six-wrapper {
         width: 60%;
-        height: 90%;
         display: flex;
         flex-direction: column; 
         .content-six-header {
             width: 100%;
-            height: 50%;
+            height: 20rem;
             @include boxCenter();
             h2 {
                 font-size: 3rem;
                 padding: 0 1rem;
                 color: rgba(47,53,137,1);
-                background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 40%, #FDD944 40%, #FDD944 100%) !important;
+                text-align: center;
             }
         }
 
         .content-six-body {
             width: 100%;
-            height: 100%;
             @include boxCenter();
             .content-six-body-list-item {
                 width: 100%;
-                height: 100%;
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                flex-direction: column;
                 .content-six-body-item {
-                    width: 30%;
-                    height: 100%;
+                    width: 100%;
+                    
                     display: flex;
                     flex-direction: column;
                     
                     .content-six-body-item-header {
                         width: 100%;
-                        height: 70%;
+                        height: 80rem;
                         display: flex;
                         flex-direction: column;
                         .content-six-body-item-header-video {
                             width: 100%;
-                            height: 70%;
+                            height: 85%;
                             @include boxCenter();
                         }
 
                         .content-six-body-item-header-tittle {
                             width: 100%;
-                            height: 30%;
+                            height: 15%;
                             @include boxCenter();
                             h2 {
                                 font-size: 2rem;
@@ -63,23 +60,22 @@
 
                     .content-six-body-item-body {
                         width: 100%;
-                        height: 50%;
                         display: flex;
                         flex-direction: column;
+                        padding-bottom: 10rem;
+                        @include boxCenter();
                         .content-six-body-item-body-des {
-                            width: 100%;
-                            height: 70%;
+                            width: 80%;
                             @include boxCenter();
                             span {
                                 font-size: 1.6rem;
                                 text-align: center;
-                                line-height: 2rem;
+                                line-height: 2.4rem;
                             }
                         }
 
                         .content-six-body-item-body-author {
                             width: 100%;
-                            height: 30%;
                             @include boxCenter();
                             span {
                                 width: 56%;
@@ -93,135 +89,19 @@
                 }
             }
 
-
-            .mobile {
-                display: none;
-            }
-        }
-    }
-
-    @include responsive(min-destop) {
-        height: 80rem;
-    }
-
-    @include responsive(tablet) {
-        height: 80rem;
-        .content-six-wrapper {
-            width: 70%;
         }
     }
 
     @include responsive(tablet-min) {
-        height: 80rem;
-        .content-six-wrapper {
-            width: 90%;
-
-            .content-six-header {
-                height: 10%;
-            }
-
-            .content-six-body {
-                height: 90%;
-
-                .content-six-body-list-item {
-                    .content-six-body-item {
-                        .content-six-body-item-body {
-                            .content-six-body-item-body-author {
-                                span {
-                                    width: 60%;
-                                    font-size: 1.4rem;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    @include responsive(tablet-mini) {
-        height: 90rem;
-        .content-six-wrapper {
-            width: 90%;
-
-            .content-six-header {
-                height: 10%;
-            }
-
-            .content-six-body {
-                height: 90%;
-
-                .content-six-body-list-item {
-                    .content-six-body-item {
-                        .content-six-body-item-body {
-                            .content-six-body-item-body-author {
-                                span {
-                                    width: 60%;
-                                    font-size: 1.4rem;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    } 
-    @include responsive(phone) {
-        height: 80rem;
         .content-six-wrapper {
             width: 80%;
-
-            .content-six-header {
-                height: 10%;
-                h2 {
-                    font-size: 2.2rem;
-                }
-            }
-
-            .content-six-body {
-                height: 90%;
-
-                .destop {
-                    display: none;
-                }
-
-                .mobile {
-                    display: block;
-                }
-
-                .content-six-body-list-item {
-                    .content-six-body-item {
-                        width: 100%;
-                        height: 80%; 
-
-                        .content-six-body-item-body {
-                            .content-six-body-item-body-des {
-                                span {
-                                    font-size: 2rem;
-                                    line-height: 3rem;
-                                }
-                            }
-
-                            .content-six-body-item-body-author {
-                                span {
-                                    width: 60%;
-                                    font-size: 2rem;
-                                }
-                            }
-                        }
-                    }
-                    .content-six-body-item-mobile-next {
-                        width: 100%;
-                        height: 20%;
-                        @include boxCenter();
-
-                        i {
-                            font-size: 5rem;
-                            color: rgb(47, 53, 137);
-                        }
-                    }
-                }
-            }
         }
     }
+
+    @include responsive(phone) {
+        .content-six-wrapper {
+            width: 90%;
+        }
+    }
+
 }
