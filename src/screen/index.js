@@ -9,12 +9,14 @@ import ContentSix from "../screen/content_six";
 import ContentEight from "../screen/content_eight";
 import Footer from "../screen/footer";
 import VideoContent from "../components/layout/VideoContent";
+import ContenBuy from "./content_buy";
 
 const Content = () => {
   const dataSectionVideos = {
     section_1: {
       title: "",
-      urlVideo: "https://www.youtube.com/embed/v_oUr0hbF9I?autoplay=0&showinfo=0",
+      urlVideo:
+        "https://www.youtube.com/embed/v_oUr0hbF9I?autoplay=0&showinfo=0",
       dataStars: [
         "Bạn tìm khóa học Tiếng anh cấp tốc?",
         "Bạn cần phương pháp học tập Tiếng anh hiệu quả?",
@@ -28,7 +30,8 @@ const Content = () => {
     },
     section_2: {
       title: "Tôi là ai?",
-      urlVideo: "https://www.youtube.com/embed/o_VWJ3s0sRI?autoplay=0&showinfo=0",
+      urlVideo:
+        "https://www.youtube.com/embed/o_VWJ3s0sRI?autoplay=0&showinfo=0",
       dataStars: [],
       dataDes: [
         "Cô Telesa là giáo viên Tiếng anh chuẩn TESOL, giàu kinh nghiệm",
@@ -40,7 +43,8 @@ const Content = () => {
     section_3: {
       title:
         "Tại sao bạn chưa nói được tiếng anh sau nhiều năm học ở trung tâm ?",
-      urlVideo: "https://www.youtube.com/embed/dH5SzOMbYw8?autoplay=0&showinfo=0",
+      urlVideo:
+        "https://www.youtube.com/embed/dH5SzOMbYw8?autoplay=0&showinfo=0",
       dataStars: [
         "Tại bạn chưa đủ quyết tâm?",
         " Chưa tìm được phương pháp phù hợp?",
@@ -52,14 +56,16 @@ const Content = () => {
     },
     section_4: {
       title: "Cô Telesa làm gì để giúp học viên nói được tiếng Anh?",
-      urlVideo: "https://www.youtube.com/embed/X-bPcOlthp8?autoplay=0&showinfo=0",
+      urlVideo:
+        "https://www.youtube.com/embed/X-bPcOlthp8?autoplay=0&showinfo=0",
       dataStars: [],
       dataDes: [],
       isbtn: true,
     },
     section_5: {
       title: "Làm cách nào cô có thể làm được vậy?",
-      urlVideo: "https://www.youtube.com/embed/ojQmwVVL7Sk?autoplay=0&showinfo=0",
+      urlVideo:
+        "https://www.youtube.com/embed/ojQmwVVL7Sk?autoplay=0&showinfo=0",
       dataStars: [
         "Nói được tiếng Anh trong 3 tháng?",
         "Cho người bắt đầu từ số 0?",
@@ -74,14 +80,16 @@ const Content = () => {
     },
     section_6: {
       title: "Học viên nói gì về cô Telesa?",
-      urlVideo: "https://www.youtube.com/embed/IzHB6C5c0K8?autoplay=0&showinfo=0",
+      urlVideo:
+        "https://www.youtube.com/embed/IzHB6C5c0K8?autoplay=0&showinfo=0",
       dataStars: [],
       dataDes: ["Những người mà cô Telesa đã giúp đỡ và cộng tác"],
       isbtn: true,
     },
     section_7: {
       title: "Đừng bỏ lỡ cơ hội này!",
-      urlVideo: "https://www.youtube.com/embed/QEDd1dm6EE4?autoplay=0&showinfo=0",
+      urlVideo:
+        "https://www.youtube.com/embed/QEDd1dm6EE4?autoplay=0&showinfo=0",
       dataStars: [],
       dataDes: [],
       isbtn: true,
@@ -110,6 +118,7 @@ const Content = () => {
       <ContentFive />
       <ContentSix />
       <ContentEight />
+      <ContenBuy />
       <Footer />
     </div>
   );
